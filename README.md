@@ -28,7 +28,14 @@ We assessed the model's generalization performance using 10-fold cross-validatio
 
 ## Results
 
-The SVM classifier with the RBF kernel performed best in terms of accuracy, precision, recall, and F1-score while the sigmoid kernel produced much lower performance metrics, showing that there is still space for improvement in iris species classification.
+The SVM classifier with the RBF kernel performed best in terms of accuracy, precision, recall, and F1-score while the sigmoid kernel produced much lower performance metrics, showing that there is still space for improvement in iris species classification. The table below describes our results.
+
+| Kernel     | Accuracy | Precision | Recall | F1-Score |
+|------------|----------|-----------|--------|----------|
+| Linear     | 0.95     | 0.96      | 0.94   | 0.95     |
+| Polynomial | 0.94     | 0.95      | 0.93   | 0.94     |
+| RBF        | 0.97     | 0.97      | 0.97   | 0.97     |
+| Sigmoid    | 0.89     | 0.90      | 0.88   | 0.89     |
 
 ## Conclusion
 
